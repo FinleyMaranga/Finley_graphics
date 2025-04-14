@@ -1,0 +1,40 @@
+/* LOGO: Starts from left margin & is large */
+.logo-img {
+    height: 150px; /* Keeps navbar height intact */
+    width: 200px; /* Large but controlled */
+    object-fit: contain; /* Prevents stretching */
+    margin-left: -150px; /* Aligns logo to the left */
+    padding-left:10px;
+}
+
+/* NAVBAR: Fixed height */
+.navbar {
+    height: 68px;
+    padding: 20px 0;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+    padding-top: 50px;
+}
+<style>
+    .carousel-img {
+        max-width: 100%; /* Ensures images don't exceed container */
+        height: 150px; /* Smaller height for better visibility */
+        object-fit: contain; /* Prevents cropping */
+        margin: auto; /* Centers the image */
+        display: block; /* Ensures proper alignment */
+    }
+</style>
+.carousel-img {
+    max-width: 50%; /* Image will take at most 50% of screen width */
+    height: auto; /* Keep aspect ratio */
+    display: block;
+    margin: auto;
+}
+#content {
+    padding-top: 80px; /* Adjust this value based on your navbar height */
+}
